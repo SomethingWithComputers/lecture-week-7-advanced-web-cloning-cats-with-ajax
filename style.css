@@ -1,0 +1,70 @@
+html,
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#add-cat {
+    background: #63C74E;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 8px auto;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    width: 320px;
+}
+
+#profiles {}
+
+#profiles .profile {
+    background: #0099DB;
+    border-radius: 4px;
+    float: left;
+    margin: 8px;
+    padding: 8px;
+    width: 256px;
+}
+
+#profiles .profile .avatar {
+    height: 256px;
+    overflow: hidden;
+}
+
+#profiles .profile .avatar img {
+    border-radius: 4px;
+    width: 100%;
+}
+
+#profiles .profile .description {
+    color: #C0CBDC;
+    font-style: italic;
+    padding: 8px;
+    text-align: center;
+}
+
+#profiles .profile .remove {
+    background: #FF0044;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    padding: 8px;
+}
+
+#profiles .profile .username {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px;
+}
